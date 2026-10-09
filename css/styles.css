@@ -1,0 +1,32 @@
+/* ============================================================
+   CAFE RAICES - styles.css (TU TRABAJO)
+   Lee ENUNCIADO.html y mira la carpeta referencia/ para ver cómo debe quedar.
+   No abras la carpeta solucion/ hasta terminar.
+   ============================================================ */
+
+/* ---------- 1) VARIABLES Y RESET ---------- */
+/* TODO: colores en :root y reset (margin, padding, box-sizing) */
+
+
+/* ---------- 2) BOTONES Y TEXTOS COMUNES ---------- */
+/* TODO: .btn, .btn--primary, .btn--outline, títulos, .tag */
+
+
+/* ---------- 3) HEADER Y NAV ---------- */
+/* TODO: barra con logo a la izquierda y links a la derecha */
+
+
+/* ---------- 4) HERO ---------- */
+/* TODO: banner de fondo con capa oscura, texto y 2 botones centrados */
+
+
+/* ---------- 5) MENU (3 tarjetas) ---------- */
+/* TODO: 3 tarjetas en fila con sombra, hover y precio destacado */
+
+
+/* ---------- 6) RESERVAS (2 columnas) ---------- */
+/* TODO: info a la izquierda y formulario a la derecha */
+
+
+/* ---------- 7) RESPONSIVE ---------- */
+/* TODO: @media (max-width: 768px) */

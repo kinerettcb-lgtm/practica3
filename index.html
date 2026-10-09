@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Raíces</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- TODO: agrega las clases que necesites (revisa ENUNCIADO.html) -->
+  <!--Inicio Header-->
+  <header>
+    <nav>
+      <a href="#inicio">
+        <img src="img/logo.png" alt="Logo Café Raíces" />
+      </a>
+
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Nuestro menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio">
+      <p>Café de especialidad</p>
+      <h1>Café Raíces</h1>
+      <h2>Hecho con calma, servido con cariño</h2>
+      <p>
+        Granos de origen, repostería artesanal y un rincón tranquilo en el
+        corazón de Valdivia.
+      </p>
+
+      <div>
+        <a href="#menu">Ver el menú</a>
+        <a href="#reservas">Reservar mesa</a>
+      </div>
+    </section>
+    <!--Fin Header-->
+
+    <!--Inicio menú-->
+    <section id="menu">
+      <div>
+
+        <div>
+          <p>Nuestro menú</p>
+          <h2>Lo que más pides</h2>
+        </div>
+
+        <div>
+
+          <article>
+            <div>☕</div>
+            <h3>Espresso doble</h3>
+            <p>Intenso, aterciopelado y con notas a cacao amargo.</p>
+            <p>$2.500</p>
+          </article>
+
+          <article>
+            <div>🥐</div>
+            <h3>Croissant de almendras</h3>
+            <p>Horneado cada mañana con mantequilla y crema de almendras.</p>
+            <p>$3.200</p>
+          </article>
+
+          <article>
+            <div>🍰</div>
+            <h3>Cheesecake de maracuyá</h3>
+            <p>Cremoso, ácido y dulce a la vez. Ideal para compartir.</p>
+            <p>$4.500</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+    <!--Fin menú-->
+
+    <!--Inicio reservas-->
+    <section id="reservas">
+      <div>
+
+        <div>
+          <p>Visítanos</p>
+          <h2>Reserva tu mesa</h2>
+          <p>
+            Escríbenos y te guardamos el mejor lugar junto a la ventana.
+          </p>
+
+          <ul>
+            <li><strong>Lunes a viernes:</strong> 08:00 a 20:00</li>
+            <li><strong>Sábado y domingo:</strong> 09:00 a 22:00</li>
+          </ul>
+
+          <p><strong>Dirección:</strong> Av. Los Cedros 456, Valdivia</p>
+          <p><strong>Teléfono:</strong> +56 9 1234 5678</p>
+        </div>
+
+        <form>
+          <h3>Datos de la reserva</h3>
+
+          <div>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" placeholder="Tu nombre" />
+          </div>
+
+          <div>
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" type="email" placeholder="correo@ejemplo.cl" />
+          </div>
+
+          <div>
+            <label for="fecha">Fecha</label>
+            <input id="fecha" type="date" />
+          </div>
+
+          <div>
+            <label for="personas">Personas</label>
+            <select id="personas">
+              <option>1 persona</option>
+              <option>2 personas</option>
+              <option>3 a 4 personas</option>
+              <option>5 o más</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="mensaje">Comentarios</label>
+            <textarea id="mensaje" rows="4" placeholder="¿Alguna alergia o celebración?"></textarea>
+          </div>
+
+          <button type="submit">Reservar mesa</button>
+        </form>
+
+      </div>
+    </section>
+    <!--Fin reservas-->
+
+  </main>
+
+</body>
+
+</html>

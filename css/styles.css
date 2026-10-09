@@ -1,32 +1,64 @@
-/* ============================================================
-   CAFE RAICES - styles.css (TU TRABAJO)
-   Lee ENUNCIADO.html y mira la carpeta referencia/ para ver cómo debe quedar.
-   No abras la carpeta solucion/ hasta terminar.
-   ============================================================ */
 
-/* ---------- 1) VARIABLES Y RESET ---------- */
-/* TODO: colores en :root y reset (margin, padding, box-sizing) */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
+body{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
-/* ---------- 2) BOTONES Y TEXTOS COMUNES ---------- */
-/* TODO: .btn, .btn--primary, .btn--outline, títulos, .tag */
-
-
-/* ---------- 3) HEADER Y NAV ---------- */
-/* TODO: barra con logo a la izquierda y links a la derecha */
-
-
-/* ---------- 4) HERO ---------- */
-/* TODO: banner de fondo con capa oscura, texto y 2 botones centrados */
-
-
-/* ---------- 5) MENU (3 tarjetas) ---------- */
-/* TODO: 3 tarjetas en fila con sombra, hover y precio destacado */
+a{
+   text-decoration: none;
+   
+}
+ul{
+   list-style: none;
+}
+.header {
+   background-color: #f6efe6;
+   }
 
 
-/* ---------- 6) RESERVAS (2 columnas) ---------- */
-/* TODO: info a la izquierda y formulario a la derecha */
+.nav {
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 10px 20px;
+   }
+   .nav_logo img {
+   height: 56px;
+   }
+
+.nav_links {
+   display: flex;
+   gap: 30px;
+
+   }
+
+.nav_links a {
+   color: #3b3b3b;
+   font-weight: bold;
+   }
 
 
-/* ---------- 7) RESPONSIVE ---------- */
-/* TODO: @media (max-width: 768px) */
+
+.hero {
+   background-image:  url("../img/banner.png");
+   background-size: cover;
+   background-position: center;
+   color: #3b3b3b;
+   min-height: 70vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 60px 20px;
+   }  
+
+
+
